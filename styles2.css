@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+    background-image: url("red.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+}
+
+.main h1 {
+    color: white;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+}
+li a {
+    text-decoration-style: none;
+    list-style-type: none;
+}
+.right {
+    display: flex;
+    gap: 25px;
+    color: white;
+    text-decoration-style: none;
+    list-style-type: none;
+
+
+}
+.right li, .left li {
+    text-decoration-style: none;
+    list-style-type: none;
+}
+.left {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 0px;
+    
+}
+.right a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+   
+font-weight: 700;
+font-size: 10em;
+letter-spacing: 1.3rem;
+}
+
+.social
+{
+   
+gap: 45px;
+ display: flex;   
+ justify-content: center;
+ 
+ 
+
+ 
+}
+.social li
+{
+  list-style: none;
+  
+}
+.social li a
+{
+transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a img:hover
+{
+  transform: scale(1.5) 
+}
+
+
+.social img {
+    width: 4em;
+}
+.social a {
+    text-align: center;
+
+}
+
+.main {
+    display: flex;
+    margin-top: 6em;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    
+}
+a {
+    text-decoration-style: none;
+    list-style-type: none;
+}
+
+.main-wrapper {
+    height: 100vh;
+    justify-content: center;
+}
+
+.music h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 1em;
+    padding: 50px;
+    letter-spacing: 1.3rem;
+}
+
+.spotify {
+    
+  padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.song {
+    display: flex;
+    gap: 1em;
+    text-align: center;
+    align-items: center;
+}
+.music {
+    background-image: url("WhatsApp Image 2022-07-24 at 2.44.07 PM.jpeg");
+    background-position:left;
+}
+
+video {
+    position: fixed;
+    float: left;
+    opacity: 30%;
+    height:1280px;
+    width: auto;
+}
+
+
+.right a:hover {
+    transform: scale(1.2);
+   color: red;
+   font-weight: bold;
+}
+
+.right a {
+    display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+  
+  
+
+  .two {
+    filter: invert(100%);
+  }
+
+  .aegos {
+      text-align: center;
+      color: white;
+      font-style: italic;
+      background-color: purple
+  }
+
+  @media only screen and (max-width: 1020px) {
+.social {
+    position: relative;
+    left: 8em;
+}
+
+    .main h1 {
+    margin-top: 10px;
+    margin-left: 1.7em;
+    font-size: 7em;
+    
+    
+}
+body {
+    background-position: 55%;
+
+    
+}
+nav {
+    max-width: 100vh;
+   gap: 20em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    align-items: center;
+}
+.right {
+    margin-left: auto;
+    font-size: 2px;
+}
+.right a {
+    font-size: 15px;
+    left: 0px;
+}
+  }
